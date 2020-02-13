@@ -8,9 +8,38 @@
 body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #ffffff url(../imagens/bg.png);
+    margin: 15px;
 
 }
 
 #container{
     border: 1px solid red;
+    background: #ede9cc;
 }
+
+#topo{
+    position: relative;
+    background: #dbc87d;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#area-logo{
+    position: absolute;
+    background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0em;
+    left: 0em;
+}
+
+#area-menu{
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+}
+
+
